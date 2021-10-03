@@ -114,3 +114,55 @@ async function asyncFetch() {
 
 asyncFetch();
 console.log(data1);
+
+//html:
+// <!DOCTYPE html>
+// <html>
+//   <head>
+//     <title>Parcel Sandbox</title>
+//     <meta charset="UTF-8" />
+//   </head>
+
+//   <body>
+//     <div id="app1"></div>
+//     <div id="app"></div>
+
+//     <script src="src/index.js"></script>
+//   </body>
+// </html>
+
+//css:
+// * {
+//   font-family: sans-serif;
+//   margin: 0px;
+//   padding: 0px;
+//   box-sizing: border-box;
+// }
+
+// #app {
+//   width: 100%;
+// }
+// #app1 {
+//   width: 100%;
+//   height: 300px;
+//   border: 3px solid black;
+//   display: flex;
+//   justify-content: space-around;
+// }
+
+// .movie-item {
+//   border: 2px solid black;
+//   margin: 5px;
+//   text-align: center;
+//   height: 25px;
+//   line-height: 25px;
+//   border-radius: 10px;
+//   background-color: grey;
+//   color: white;
+// }
+// .movie-card {
+//   border: 1px solid black;
+//   width: 100px;
+//   height: 150px;
+//   margin: 10px;
+// }
