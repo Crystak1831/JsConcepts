@@ -7,6 +7,8 @@ const arr = [
   { obj: 4, name: "test4" },
   { obj: 5, name: "test5" }
 ];
+
+//filter
 function RemoveDuplicateObjArr(arr) {
   const newArr = [];
 
@@ -20,6 +22,6 @@ function RemoveDuplicateObjArr(arr) {
     }
     return false;
   });
-  return result;
+  return JSON.stringify(result);
 }
 console.log(RemoveDuplicateObjArr(arr));
